@@ -1,0 +1,153 @@
+
+body{
+    background: #2b2a2a;
+}
+.feed{
+width: 360px;
+height: 800px;
+flex-shrink: 0;
+border: 1px solid #000;
+background: #000;
+margin-left: 75vh;
+border-radius: 10px;
+border: solid rgb(92, 87, 87);
+position: fixed;
+}
+
+#perfil img{
+    border: solid ;
+    border-radius: 15px;
+    height: 27px;
+    width: 27px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+#logo img {
+    height: 27px;
+    width: 27px;
+    display: flex;
+    align-content: space-between;
+  margin-top: -30px;
+  margin-left: 165px;
+  
+    
+
+}
+#division{
+
+    margin-top: 15px;
+    color: #2D2B2B;
+    
+
+}
+.navigaton-bar{
+    margin-top: 20px;
+    
+    color: #2D2B2B;
+    border: solid #2D2B2B;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    width: 360px;
+    height: 58px;
+    position: fixed;
+    
+    
+}
+
+
+.select{
+
+    display: flex;
+width: 84px;
+flex-direction: row;
+flex-shrink: 0;
+
+margin-top: 30px;
+margin-left: 40px;
+
+color: #FFF;
+text-align: center;
+font-size: 12px;
+font-family: Inter;
+font-weight: 600;
+line-height: 75.023%;
+letter-spacing: -0.66px;
+}
+
+.select2{
+
+    display: flex;
+width: 84px;
+flex-direction: row;
+flex-shrink: 0;
+
+margin-top: -9px;
+margin-left: 246px;
+
+color: #FFF;
+text-align: center;
+font-size: 12px;
+font-family: Inter;
+font-weight: 600;
+line-height: 75.023%;
+letter-spacing: -0.66px;
+}
+
+/*
+.message{}
+.notifications{}
+.search{
+    display: flex;
+    flex-direction: row;
+    margin-top: -45px;
+    justify-content: space-around;
+    margin-left: -100px;
+    
+    flex-shrink: 0;}
+.home{
+    margin-top: 1.5px;
+    margin-left: 16px;
+}
+*/
+.home {
+
+   
+   margin-left: 20px;
+    
+    
+    
+}
+.search{
+    margin-left: 20px;
+}
+.messages{
+
+    margin-left: 40px;
+}
+.notifications{
+    margin-left: 35px;
+}
+
+.adicionar-tweet{
+
+    color: #FFF;
+    border:solid #4287F5;
+    border-radius: 57px;
+    width: 57px;
+    height: 55px;
+    position: relative;
+    margin-top: 560px;
+    margin-left: 270px;
+    background: #4287F5;
+    
+   
+    
+}
+.adicionar-tweet p{
+    text-align: center ;
+    margin-top: 10px;
+    font-size: 30px;
+    font-style: normal;
+}
